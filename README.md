@@ -1,10 +1,4 @@
-<h1 align="center">Code Institute Website</h1>
-
-[View the live project here.](https://codeinstitute.net)
-
-This is the main marketing website for Code Institute. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential students and partners.
-
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
+<h1 align="center">First Milestone Project 1 - One Life Community Landing Page</h1>
 
 ## User Experience (UX)
 
@@ -12,36 +6,36 @@ This is the main marketing website for Code Institute. It is designed to be resp
 
     -   #### First Time Visitor Goals
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+        1. As a First Time Visitor, I want to be able to get a feel for the commmunity before joining.
+        2. As a First Time Visitor, I want to be able to navigate the website easier so I can find out what the community is about.
+        3. As a First Time Visitor, I want to look for testimonials about the community to be able to know if the community is a place that I would like join.
+        4. As a First Time Visitor, I want to see if the community has the same interested as myself.
+        5. As a First Time Visitor, I want to be able to ask questions that I am unable to find the answers to on the website.
 
     -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find information about coding challenges.
-        2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-        3. As a Returning Visitor, I want to find community links.
+        1. As a Returning Visitor, I want to see if there are any new hobbies or interesed that would match my own hobbies.
+        2. As a Returning Visitor, I want to be able to share some drawings that I have made to get feedback.
+        3. As a Returning Visitor, I want to know more about the community and who runs it.
 
     -   #### Frequent User Goals
-        1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-        2. As a Frequent User, I want to check to see if there are any new blog posts.
-        3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+        1. As a Frequent User, I want to be able to keep up to date with community events that I would be interested in joining
+        2. As a Frequent User, I want to check to see if there are any new community posts that I can give feedback on.
+        3. As a Frequent User, I want to be able to share feedback about the community so that first time vistors are able to have an idea of what the community is like.
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are Code Insititue red, and white.
+        -   The main two colours of the webstie are going to be Purple #A723B5 and Pink #EE1289.
     -   #### Typography
-        -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+        -   The Oswald and Roboto are the two main font used throughout the whole website with Sans Serif as the fallback font in case for any reason these fonts are not being imported into the site correctly. Both fonts are clean and commonly used fonts, Oswald is have more of a block type look to is making it ideal for Headers and Titles while Roboto is more rounded and ideal for website text.
     -   #### Imagery
         -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+        -   The occupanying imagery to go with each feature is aimed to give the user a quick insite into what the feature is.
+        -   On the community page all imagery used is from community members who want to show off their talents.
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
-
-    -   Mobile Wireframe - [View](https://github.com/)
-
-    -   Contact Us Page Wireframe - [View](https://github.com/)
+    -   Whole Website Wireframe - Wireframes for Mobile, Tablet and Web - [View](https://stephen822206.invisionapp.com/freehand/Milestone-Project-1-Adp7w26oL)
 
 ## Features
 
@@ -58,7 +52,7 @@ This is the main marketing website for Code Institute. It is designed to be resp
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+1. [Bootstrap 5.0.2:](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
@@ -72,10 +66,8 @@ This is the main marketing website for Code Institute. It is designed to be resp
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
-1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+1. [InVision:](https://www.invisionapp.com)
+    - InVision was used to create the [wireframes](https://stephen822206.invisionapp.com/freehand/Milestone-Project-1-Adp7w26oL) during the design process.
 
 ## Testing
 
