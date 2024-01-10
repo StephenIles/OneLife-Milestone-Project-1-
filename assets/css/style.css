@@ -1,9 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-.page-logo {
-    background-color: red;
-}
+/* ----------------------------------- Colours */
+
+
+/* ----------------------------------- Nav Bar */
 
 .page-nav {
-    background-color: blue;
+    font-family: "Oswald, san-serif";
+    font-size: 25px;
+    font-weight: 700;
+    background-color: #BDBDBD;
+    width: 100%;
+}
+
+.navbar-nav {
+    margin: auto;
+   display: inline;
+}
+
+.nav-item {
+    display: inline-block;
+    text-align: center;
+}
+
+.page-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.page-nav ul li a:hover {
+    color: #EE1289;
+}
+
+.ui-home, 
+.ui-about-us {
+    text-align: right;
+}
+
+.ui-our-community,
+.ui-join-us {
+    text-align: left;
+}
+
+/* ----------------------------------- Header */
+
+.header-div {
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------------------------------- Logo */
+
+.logo-border {
+    background-color: #aaaaaa;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.header-div {
+    justify-content: center;
+    display: flex;
 }
