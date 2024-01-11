@@ -15,7 +15,7 @@
 
 .navbar-nav {
     margin: auto;
-   display: inline;
+    display: inline;
 }
 
 .nav-item {
@@ -54,12 +54,11 @@
 /* ----------------------------------- Logo */
 
 .logo-border {
-    background-color: #aaaaaa;
+    background-image: url(../images/One\ Life\ Logo.png);
     border-radius: 50%;
     height: 150px;
     width: 150px;
     position: absolute;
-    z-index: 1;
     margin: 0;
     padding: 0;
 }
@@ -68,3 +67,50 @@
     justify-content: center;
     display: flex;
 }
+
+/* ----------------------------------- Hero Image */
+
+.hero-image {
+    background-image: url(../images/Hero\ Image.jpg);
+    background-size: 100% 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-element {
+    width: 50%;
+    text-align: center;
+    font-family: "Oswald, san-serif";
+    font-weight: 800;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+    padding: 20px;
+}
+
+.hero-element h1 {
+    font-size: 50px;
+    padding: 5px;
+}
+
+.hero-element h2 {
+    padding: 3px;
+}
+
+.hero-element button {
+    width: 20%;
+    font-size: 20px;
+    background-color: #D208FF;
+    border-color: #D208FF;
+    color: #fff;
+    margin: 15px;
+}
+
+.hero-element button:hover {
+    color: #fff;
+    background-color: #8D00B6;
+    border-color: #8D00B6;
+}
+
+
