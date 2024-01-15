@@ -41,8 +41,6 @@
 
 -   Responsive on all device sizes
 
--   Interactive elements
-
 ## Technologies Used
 
 ### Languages Used
@@ -162,8 +160,40 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   Tutor support at Code Institute for their support.
 
-## Development
+## Problems and Soultions
 
-###
+### Collapsable Menu on Mobile
+
+One big hurdle I came across was figuring out how to make the navigation bar change the across page to a clickable button which creates a dropdown menu for the navigation only on mobile devices. I knew this was possible using bootstrap but it took a while to figure out how this was possible.
+
+The first step was to figure out how to make the navigation toggle button, which I in the [Bootstrap Documentation](https://getbootstrap.com/docs/5.0/components/navbar/) pulling this code which worked as the navigation toggle button:
+
+```
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+</nav>
+
+```
+
+Once adding this to the end of my header div I needed to add the **collapse** class and **navbarToggleExternalContent** id to the unordered list holding the navigation links.
+
+The next obsticle was to figure out how to have the navigation toggle button only display on smaller screen, and to make the navigation bar only collapse when on smaller screens. 
+
+For this I knew I would have to implement a media query is style.css to change the display property of the **navbar** to none, but my stuggle come from how to make it so that the navbar didn't collapse when in tablet or web view. I did some research using both the [Bootstrap Documentation](https://getbootstrap.com/docs/5.2/getting-started/introduction/) and this [Stack Overflow Post](https://stackoverflow.com/questions/74548965/bootstrap-5x-collapse-on-mobile-only) I found that I needed to add the following code in my media query to show all collapsed content on a big screen size
+
+```
+.collapse:not(.show) {
+        display: block;
+        visibility: visible;
+    }
+
+```
+
+From there it was mainly trail and error with styling to position the list underneath the button on the right side of the page to which i was finally happy with how the dropdown list finally looked.
+
 
 

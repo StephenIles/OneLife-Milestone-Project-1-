@@ -1,20 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-/* ----------------------------------- Colours */
+body {
+    font-family: "Oswald, san-serif";
+}
 
 /* ----------------------------------- Nav Bar */
 
+.navbar {
+    background-color: #5D3587;
+}
+
 .page-nav {
-    font-family: "Oswald, san-serif";
     font-size: 25px;
     font-weight: 700;
     background-color: #A367B1;
     width: 100%;
+    line-height: 85px;
 }
 
 .navbar-nav {
     margin: auto;
-    display: inline;
+    display: inline-block;
 }
 
 .nav-item {
@@ -55,7 +61,7 @@
 
 /* ----------------------------------- Logo */
 
-.logo-border {
+.logo {
     background-image: url(../images/Website\ Logo.png);
     background-size: cover;
     border-radius: 50%;
@@ -86,7 +92,6 @@
 .hero-element {
     width: 50%;
     text-align: center;
-    font-family: "Oswald, san-serif";
     font-weight: 800;
     color: #fff;
     background-color: rgba(0,0,0,0.4);
@@ -106,16 +111,16 @@
 .hero-element button {
     width: 20%;
     font-size: 20px;
-    background-color: #D208FF;
-    border-color: #D208FF;
+    background-color: #A367B1;
+    border-color: #A367B1;
     color: #fff;
     margin: 15px;
 }
 
 .hero-element button:hover {
     color: #fff;
-    background-color: #8D00B6;
-    border-color: #8D00B6;
+    background-color: #392467;
+    border-color: #392467;
 }
 
 /* ----------------------------------- Features Section */
@@ -184,7 +189,6 @@
 
 .community-container {
     text-align: center;
-    font-family: "Oswald, san-serif";
     font-weight: 500;
     margin: 50px 0;
 }
@@ -245,8 +249,13 @@
     height: 100px;
     line-height: 100px;
     text-align: center;
-    font-family: "Oswald, san-serif";
     font-weight: 500;
+    position: relative;
+    bottom: 0;   
+}
+
+.footer .row {
+    height: 100%;
 }
 
 .socials li {
@@ -267,3 +276,103 @@
     font-size: 20px;
     padding-left: 20px;
 }
+
+/* ----------------------------------- Media Queries*/
+
+@media only screen and (max-width: 1200px) {
+    .page-nav {
+        font-size: 20px;
+    }
+
+    .logo {
+        height:100px;
+        width:100px;
+    }
+
+    .header-div {
+        height: 70px;
+    }
+
+    .page-nav {
+        line-height: 55px;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+    .collapse:not(.show) {
+        display: block;
+        visibility: visible;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .page-nav {
+        position: relative;
+    }
+
+    .navbar-nav {
+        width: 40%;
+        margin: 0;
+        padding:0;
+        position: absolute;
+        right: 0;
+        top: 70px;
+    }
+
+    .nav-item {
+        display: block;
+        text-align: center;
+        background-color: #A367B1;
+        border: 1px solid white;
+        line-height: 50%;
+        width:100%;
+    }
+
+    .ui-spare,
+    .admins-img,
+    .mature-img,
+    .events-img,
+    .user3,
+    .user4 {
+        display: none;
+    }
+
+    .navbar {
+        position: absolute;
+        right: 0;
+        height: 70px;
+    }
+
+    .hero-element {
+        width: 80%;
+    }
+
+    .hero-element button {
+        width: 30%;
+    }
+
+    .features-text,
+    .talent {
+        width: 75%;
+    }
+
+    .socials li,
+    .question {
+        font-size: 15px;
+    }
+
+    .question,
+    .socials {
+        padding: 0 0 0 10px;
+    }
+
+}
+
+
