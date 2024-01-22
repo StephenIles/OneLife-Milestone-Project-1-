@@ -25,7 +25,7 @@
 
 -   ### Design
     -   #### Colour Scheme
-        -   I used [Color Hunt](https://colorhunt.co) to find a colour palette I felt went well with the design of the website. This is the [Colour Palette](https://colorhunt.co/palette/3924675d3587a367b1ffd1e3) that I ended up chosing and these will be features throughout the website.
+        -   I used [Color Hunt](https://colorhunt.co) to find a colour palette I felt went well with the design of the website. This is the [Colour Palette](https://colorhunt.co/palette/3924675d3587a367b1ffd1e3) that I ended up chosing and these will be featured throughout the website.
     -   #### Typography
         -   The Oswald and Roboto are the two main font used throughout the whole website with Sans Serif as the fallback font in case for any reason these fonts are not being imported into the site correctly. Both fonts are clean and commonly used fonts, Oswald is have more of a block type look to is making it ideal for Headers and Titles while Roboto is more rounded and ideal for website text.
     -   #### Imagery
@@ -148,8 +148,6 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   All content was written by the developer.
 
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
-
 ### Media
 
 -   All Images were created by the developer using [Dream Studio](https://beta.dreamstudio.ai/generate)
@@ -158,15 +156,13 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   My Mentor for continuous helpful feedback.
 
--   Tutor support at Code Institute for their support.
-
 ## Problems and Soultions
 
 ### Collapsable Menu on Mobile
 
-One big hurdle I came across was figuring out how to make the navigation bar change the across page to a clickable button which creates a dropdown menu for the navigation only on mobile devices. I knew this was possible using bootstrap but it took a while to figure out how this was possible.
+One big hurdle I came across was figuring out how to make the navigation bar change to a clickable button which creates a dropdown menu for the navigation only on mobile devices. I knew this was possible using bootstrap but it took a while to figure out how to implement it.
 
-The first step was to figure out how to make the navigation toggle button, which I in the [Bootstrap Documentation](https://getbootstrap.com/docs/5.0/components/navbar/) pulling this code which worked as the navigation toggle button:
+The first step was to figure out how to make the navigation toggle button, which while in the [Bootstrap Documentation](https://getbootstrap.com/docs/5.0/components/navbar/) I used this code which worked as the navigation toggle button:
 
 ```
 <nav class="navbar navbar-dark bg-dark">
@@ -193,7 +189,28 @@ For this I knew I would have to implement a media query is style.css to change t
 
 ```
 
-From there it was mainly trail and error with styling to position the list underneath the button on the right side of the page to which i was finally happy with how the dropdown list finally looked.
+Once I had to functionality working I had to get the dropdown menu into the correct position, and to do this I made the width of **navbar-nav** to 45%, set the display of all the list items within the navbar to block so they now stack, and then moved the whole navbar to the right and gave it a top offset of 70px to sit just below the header div. Here is the code
+
+```
+.navbar-nav {
+        width: 40%;
+        margin: 0;
+        padding:0;
+        position: absolute;
+        right: 0;
+        top: 70px;
+    }
+
+    .nav-item {
+        display: block;
+        text-align: center;
+        background-color: #A367B1;
+        border: 1px solid white;
+        line-height: 50%;
+        width:100%;
+    }
+    
+```
 
 
 

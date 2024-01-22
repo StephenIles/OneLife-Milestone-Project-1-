@@ -50,6 +50,7 @@ body {
     text-align: left;
 }
 
+
 /* ----------------------------------- Header */
 
 .header-div {
@@ -125,38 +126,48 @@ body {
 
 /* ----------------------------------- Features Section */
 
-.features {
+.features,
+.about-us {
     font-family: "Oswald, san-serif";
     font-weight: 500;
     text-align: center;
     margin-top: 25px;
 }
 
-.features p {
+.features p,
+.about-us p {
     font-family: "Exo, san-serif";
 }
 
 .features h1,
 .features h3,
-.community-container h1 {
+.about-us h1,
+.about-us h3,
+.community-container h1,
+.admin-team h1 {
     text-decoration: underline;
 }
 
 .features h1,
-.community-container h1 {
+.about-us h1,
+.community-container h1,
+.admin-team h1 {
     font-size: 50px;
     font-weight: 700;
     margin: 30px;
 }
 
-.features-element {
+.features-element,
+.about-element {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 20px;
 }
 
-.features-text {
+.features-text,
+.about-text,
+.admin-intro {
     background-color: #C9C9C9;
     border-radius: 25px;
     padding: 20px;
@@ -164,7 +175,9 @@ body {
 
 .events-img,
 .admins-img,
-.mature-img {
+.mature-img,
+.who-are-we-img,
+.our-goal-img {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
@@ -185,9 +198,63 @@ body {
     background-image: url(../images/Mature\ image.png);
 }
 
+/* ----------------------------------- About Us */
+
+.about-us {
+    margin-top: 60px;
+}
+
+.admin-intro {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 75%;
+    
+}
+
+.admin-info {
+    margin: auto;
+    width: 75%;
+}
+
+
+.admin1,
+.admin2,
+.admin3 {
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    background-size: cover;
+    border-radius: 50%
+}
+
+.admin1 {
+    background-image: url(../images/Muppet.png);
+}
+
+.admin2 {
+    background-image: url(../images/Neko.png);
+}
+
+.admin3 {
+    background-image: url(../images/Allan.png);
+}
+
+.who-are-we-img {
+    background-image: url(../images/Who\ are\ we.png);
+}
+
+.our-goal-img {
+    background-image: url(../images/Our\ goal.png);
+}
+
+
 /* ----------------------------------- Community Talent */
 
-.community-container {
+.community-container,
+.admin-team {
     text-align: center;
     font-weight: 500;
     margin: 50px 0;
@@ -340,7 +407,9 @@ body {
     .mature-img,
     .events-img,
     .user3,
-    .user4 {
+    .user4,
+    .who-are-we-img,
+    .our-goal-img {
         display: none;
     }
 
@@ -359,6 +428,7 @@ body {
     }
 
     .features-text,
+    .about-text,
     .talent {
         width: 75%;
     }
@@ -371,6 +441,21 @@ body {
     .question,
     .socials {
         padding: 0 0 0 10px;
+    }
+
+    .admin-info {
+        display: block;
+    }
+    
+    .admin {
+        width: 90%;
+        margin: auto;
+    }
+
+    .admin1,
+    .admin2,
+    .admin3 {
+        margin-bottom: 30px;
     }
 
 }
