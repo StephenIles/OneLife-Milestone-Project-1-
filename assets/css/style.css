@@ -130,7 +130,8 @@ body {
 .about-us, 
 .events,
 .calendar,
-.community-talent {
+.community-talent,
+.events-list {
     font-family: "Oswald, san-serif";
     font-weight: 500;
     text-align: center;
@@ -141,7 +142,8 @@ body {
 .about-us p,
 .events p,
 .calendar p,
-.community-talent p {
+.community-talent p,
+.events-list p {
     font-family: "Exo, san-serif";
 }
 
@@ -152,7 +154,8 @@ body {
 .community-container h1,
 .admin-team h1,
 .events h1,
-.community-talent h1 {
+.community-talent h1,
+.events-list h2 {
     text-decoration: underline;
 }
 
@@ -178,7 +181,8 @@ body {
 .features-text,
 .about-text,
 .admin-intro,
-.events-body {
+.events-body,
+.events-list {
     background-color: #C9C9C9;
     border-radius: 25px;
     padding: 20px;
@@ -274,7 +278,8 @@ body {
 }
 
 .events-body,
-.calendar {
+.calendar,
+.events-list {
     width: 75%;
     margin: 25px auto;
 }
@@ -363,8 +368,8 @@ body {
 
 .community-talent {
     text-align: center;
-    margin: 25px;
 }
+
 /* ----------------------------------- Footer */
 
 .footer {
@@ -428,9 +433,12 @@ body {
         visibility: visible;
     }
 
-    .navbar {
+    .navbar,
+    .events-list {
         display: none;
     }
+
+
 
 }
 
@@ -512,6 +520,10 @@ body {
     .admin2,
     .admin3 {
         margin-bottom: 30px;
+    }
+
+    .calendar {
+        display: none;
     }
 
 }
