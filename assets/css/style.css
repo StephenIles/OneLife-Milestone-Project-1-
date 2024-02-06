@@ -109,7 +109,8 @@ body {
     padding: 3px;
 }
 
-.hero-element button {
+.hero-element button,
+.join-button button {
     width: 20%;
     font-size: 20px;
     background-color: #A367B1;
@@ -118,7 +119,8 @@ body {
     margin: 15px;
 }
 
-.hero-element button:hover {
+.hero-element button:hover,
+.join-button button:hover {
     color: #fff;
     background-color: #392467;
     border-color: #392467;
@@ -131,7 +133,9 @@ body {
 .events,
 .calendar,
 .community-talent,
-.events-list {
+.events-list,
+.join-button,
+.reviews {
     font-family: "Oswald, san-serif";
     font-weight: 500;
     text-align: center;
@@ -143,7 +147,9 @@ body {
 .events p,
 .calendar p,
 .community-talent p,
-.events-list p {
+.events-list p,
+.join-button p,
+.reviews p {
     font-family: "Exo, san-serif";
 }
 
@@ -155,7 +161,9 @@ body {
 .admin-team h1,
 .events h1,
 .community-talent h1,
-.events-list h2 {
+.events-list h2,
+.join-button h1,
+.reviews h1 {
     text-decoration: underline;
 }
 
@@ -164,7 +172,9 @@ body {
 .community-container h1,
 .admin-team h1,
 .events h1,
-.community-talent h1 {
+.community-talent h1,
+.join-button h1,
+.reviews h1 {
     font-size: 50px;
     font-weight: 700;
     margin: 30px;
@@ -182,7 +192,10 @@ body {
 .about-text,
 .admin-intro,
 .events-body,
-.events-list {
+.events-list,
+.join-button p,
+.reviews p,
+.rev {
     background-color: #C9C9C9;
     border-radius: 25px;
     padding: 20px;
@@ -284,6 +297,12 @@ body {
     margin: 25px auto;
 }
 
+.join-button,
+.reviews {
+    width: 75%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 .table-cell {
     width: 14.29%;
@@ -405,6 +424,12 @@ body {
     padding-left: 20px;
 }
 
+/* ----------------------------------- Join Us */
+
+.rev {
+    margin: 10px;
+}
+
 /* ----------------------------------- Media Queries*/
 
 @media only screen and (max-width: 1200px) {
@@ -490,6 +515,10 @@ body {
     .hero-element button {
         width: 30%;
     }
+    
+    .join-button button {
+        width: 50%;
+    }
 
     .features-text,
     .about-text,
@@ -507,7 +536,8 @@ body {
         padding: 0 0 0 10px;
     }
 
-    .admin-info {
+    .admin-info,
+    .rev-block {
         display: block;
     }
     
@@ -524,6 +554,11 @@ body {
 
     .calendar {
         display: none;
+    }
+
+    .reviews,
+    .join-button {
+        width: 75%;
     }
 
 }
