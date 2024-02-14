@@ -110,7 +110,8 @@ body {
 }
 
 .hero-element button,
-.join-button button {
+.join-button button,
+.form-button {
     width: 20%;
     font-size: 20px;
     background-color: #A367B1;
