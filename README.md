@@ -274,7 +274,32 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 | Hover over Twitter Social Link in the footer | Icon will change from white to blue | Pass |
 
 
+### Lighthouse Scores
 
+## Homepage 
+
+![Homepage Lighthouse Results](/OneLife-Milestone-Project-1-/assets/images/Homepage.PNG "Homepage Lighthouse Results")
+
+
+## About Us 
+
+![About Us Lighthouse Results](/OneLife-Milestone-Project-1-/assets/images/About%20Us.PNG "About Us Lighthouse Results")
+
+## Our Community
+
+![Our Community Lighthouse Results](/OneLife-Milestone-Project-1-/assets/images/Community.PNG "Our Community Lighthouse Results")
+
+## Join Us
+
+![Join Us Lighthouse Results](/OneLife-Milestone-Project-1-/assets/images/Join%20Us.PNG "Join Us Lighthouse Results")
+
+## Contact
+
+![Contact Lighthouse Results](/OneLife-Milestone-Project-1-/assets/images/Contact.PNG "Contact Lighthouse Results")
+
+## Thank You
+
+![Thank You Lighthouse Results](/OneLife-Milestone-Project-1-/assets/images/Thankyou.PNG "Thank You Lighthouse Results")
 
 ### Known Bugs
 
