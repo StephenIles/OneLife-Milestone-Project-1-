@@ -2,6 +2,12 @@
 
 body {
     font-family: "Oswald, san-serif";
+    font-size: 18px;
+}
+
+.body {
+    height: 100%;
+    text-align: center;
 }
 
 /* ----------------------------------- Nav Bar */
@@ -111,7 +117,8 @@ body {
 
 .hero-element button,
 .join-button button,
-.form-button {
+.form-button,
+.thankyou button {
     width: 20%;
     font-size: 20px;
     background-color: #A367B1;
@@ -121,7 +128,9 @@ body {
 }
 
 .hero-element button:hover,
-.join-button button:hover {
+.join-button button:hover,
+.form-button:hover,
+.thankyou button:hover {
     color: #fff;
     background-color: #392467;
     border-color: #392467;
@@ -137,7 +146,8 @@ body {
 .events-list,
 .join-button,
 .reviews,
-.contact-form {
+.contact-form,
+.thankyou {
     font-family: "Oswald, san-serif";
     font-weight: 500;
     text-align: center;
@@ -178,7 +188,8 @@ body {
 .events h1,
 .community-talent h1,
 .join-button h1,
-.reviews h1  {
+.reviews h1,
+.thankyou h1 {
     font-size: 50px;
     font-weight: 700;
     margin: 30px;
@@ -206,7 +217,8 @@ body {
 .join-button p,
 .reviews p,
 .rev,
-.contact-form {
+.contact-form,
+.thankyou {
     background-color: #C9C9C9;
     border-radius: 25px;
     padding: 20px;
@@ -400,6 +412,22 @@ body {
     text-align: center;
 }
 
+.carousel-inner {
+    border-radius: 25px;
+}
+
+/* ----------------------------------- Contact Submit */
+
+.thankyou {
+    margin-top: 15%;
+    margin-bottom: 15%; 
+    width: 80%;
+}
+
+.thankyou button {
+    margin-bottom: 20px;
+}
+
 /* ----------------------------------- Footer */
 
 .footer {
@@ -444,14 +472,21 @@ body {
 /* ----------------------------------- Contact Us */
 
 .contact-form {
-    margin-top: 60px;
-    margin-bottom: 60px;
-    width: 75%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 90%;
+    height: 50%;
 }
 
 textarea {
     height: 200px;
-    width: 50%;
+    width: 75%;
+}
+
+form input,
+form textarea {
+    border-radius: 25px;
+    margin-bottom: 20px;
 }
 
 /* ----------------------------------- Media Queries*/
