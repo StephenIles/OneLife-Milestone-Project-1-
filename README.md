@@ -87,6 +87,195 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
+## Testing Table
+
+### Home Page
+
+| Action    | Expected Outcome   | Pass/Fail   |
+|  :-----:  | :----------------: | :---------: |
+| Press Home Nav Button | Takes you to the Homepage | Pass |
+| Press About Us Nav Button | Takes you to the About Us Page | Pass |
+| Press Our Community Nav Button | Takes you to the Our Community Page | Pass |
+| Press Join Us Nav Button | Takes you to the Join Us Page | Pass |
+| Hover over Home Nav Buttom | Text will change from white to blue and will be underlined  | Pass |
+| Hover over About Us Nav Button | Text will change from white to blue and will be underlined | Pass |
+| Hover over Our Community Nav Button | Text will change from white to blue and will be underlined | Pass |
+| Hover over Join Us Nav Button | Text will change from white to blue and will underlined | Pass |
+| Press Join Button in Hero Image | Takes you to the Join Us Page | Pass |
+| Hover Over Join Button in Hero Image | Button will change from purple to blue | Pass |
+| Press the Community Page link in the Weekly Events Section | Takes you to the Our Community Page | Pass |
+| Press the Question Form link in the Admin Team Section | Takes you to the Contact Page | Pass |
+| Press the Question Form link in the Mature Server Section | Takes you to the Contact Page | Pass |
+| Press the Ask Us A Qeustion Link in the footer | Takes you to the Contact Page | Pass |
+| Press the Facebook Social Link in the footer | Takes you to facebook.com in a new tab | Pass |
+| Press the Youtube Social Link in the footer | Takes you to youtube.com in a new tab | Pass |
+| Press the Pintrest Social Link in the footer | Takes you to pintrest.co.uk in a new tab | Pass |
+| Press the Instagram Social Link in the footer | Takes you to instgram.com in a new tab | Pass |
+| Press the Twitter Social Link in the footer | Takes you to twitter.com in a new tab | Pass |
+| Hover over the Ask Us A Question link in the footer | Text will change from white to blue and will be underlined | Pass |
+| Hover over Facebook Social Link in the footer | Icon will change from white to blue | Pass |
+| Hover over Youtube Social Link in the footer | Icon will change from white to blue | Pass |
+| Hover over Pintrest Social Link in the footer | Icon will change from white to blue | Pass |
+| Hover over Instagram Social Link in the footer | Icon will change from white to blue | Pass |
+| Hover over Twitter Social Link in the footer | Icon will change from white to blue | Pass |
+
+
+### About Us Page
+
+| Action    | Expected Outcome   | Pass/Fail   |
+|  :-----:  | :----------------: | :---------: |
+| Press the Home Nav Button | Takes you to the Home Page | Pass |
+| Press the About Us Nav Button | Takes you to the About Us Page | Pass |
+| Press the Our Community Nav Button | Takes you to the Our Community Page | Pass |
+| Press the Join Us Nav Button | Takes you to the Join Us Page | Pass |
+| Hover over Home Nav Buttom | Text will change from white to blue and will be underlined  | Pass |
+| Hover over About Us Nav Button | Text will change from white to blue and will be underlined | Pass |
+| Hover over Our Community Nav Button | Text will change from white to blue and will be underlined | Pass |
+| Hover over Join Us Nav Button | Text will change from white to blue and will underlined | Pass |
+| Press the Online Form Link in the Admin Team Section | Takes you to the Contact Page | Pass |
+| Press the Ask Us A Qeustion Link in the footer | Takes you to the Contact Page | Pass |
+| Press the Facebook Social Link in the footer | Takes you to facebook.com in a new tab | Pass |
+| Press the Youtube Social Link in the footer | Takes you to youtube.com in a new tab | Pass |
+| Press the Pintrest Social Link in the footer | Takes you to pintrest.co.uk in a new tab | Pass |
+| Press the Instagram Social Link in the footer | Takes you to instgram.com in a new tab | Pass |
+| Press the Twitter Social Link in the footer | Takes you to twitter.com in a new tab | Pass |
+| Hover over the Ask Us A Question link in the footer | Text will change from white to blue and will be underlined | Pass |
+| Hover over Facebook Social Link in the footer | Icon will change from white to blue | Pass |
+| Hover over Youtube Social Link in the footer | Icon will change from white to blue | Pass |
+| Hover over Pintrest Social Link in the footer | Icon will change from white to blue | Pass |
+| Hover over Instagram Social Link in the footer | Icon will change from white to blue | Pass |
+| Hover over Twitter Social Link in the footer | Icon will change from white to blue | Pass |
+
+
+### Our Community Page
+
+| Action    | Expected Outcome   | Pass/Fail   |
+|  :-----:  | :----------------: | :---------: |
+| Press the Home Nav Button | Takes you to the Home Page | Pass |
+| Press the About Us Nav Button | Takes you to the About Us Page | Pass |
+| Press the Our Community Nav Button | Takes you to the Our Community Page | Pass |
+| Press the Join Us Nav Button | Takes you to the Join Us Page | Pass |
+| Hover over Home Nav Buttom | Text will change from white to blue and will be underlined  | Pass |
+| Hover over About Us Nav Button | Text will change from white to blue and will be underlined | Pass |
+| Hover over Our Community Nav Button | Text will change from white to blue and will be underlined | Pass |
+| Hover over Join Us Nav Button | Text will change from white to blue and will underlined | Pass |
+| Press the left arrow on the Community Talent Images | Will scroll to the next image to the left | Pass |
+| Press the right arrow on the Community Talent Images | Will scroll to the next image to the right | Pass |
+| Press the first Carousel indicator at the bottom on the Community Images | Will take you to the first image | Pass |
+| Press the second Carousel indicator at the bottom on the Community Images | Will take you to the second image | Pass |
+| Press the third Carousel indicator at the bottom on the Community Images | Will take you to the third image | Pass |
+| Press the forth Carousel indicator at the bottom on the Community Images | Will take you to the forth image | Pass |
+| Press the fifth Carousel indicator at the bottom on the Community Images | Will take you to the fifth image | Pass |
+| Press the sixth Carousel indicator at the bottom on the Community Images | Will take you to the sixth image | Pass |
+| Press the seventh Carousel indicator at the bottom on the Community Images | Will take you to the seventh image | Pass |
+| Press the eigth Carousel indicator at the bottom on the Community Images | Will take you to the eigth image | Pass |
+| Press the ninth Carousel indicator at the bottom on the Community Images | Will take you to the ninth image | Pass |
+| Press the tenth Carousel indicator at the bottom on the Community Images | Will take you to the tenth image | Pass |
+| Press the Ask Us A Qeustion Link in the footer | Takes you to the Contact Page | Pass |
+| Press the Facebook Social Link in the footer | Takes you to facebook.com in a new tab | Pass |
+| Press the Youtube Social Link in the footer | Takes you to youtube.com in a new tab | Pass |
+| Press the Pintrest Social Link in the footer | Takes you to pintrest.co.uk in a new tab | Pass |
+| Press the Instagram Social Link in the footer | Takes you to instgram.com in a new tab | Pass |
+| Press the Twitter Social Link in the footer | Takes you to twitter.com in a new tab | Pass |
+| Hover over the Ask Us A Question link in the footer | Text will change from white to blue and will be underlined | Pass |
+| Hover over Facebook Social Link in the footer | Icon will change from white to blue | Pass |
+| Hover over Youtube Social Link in the footer | Icon will change from white to blue | Pass |
+| Hover over Pintrest Social Link in the footer | Icon will change from white to blue | Pass |
+| Hover over Instagram Social Link in the footer | Icon will change from white to blue | Pass |
+| Hover over Twitter Social Link in the footer | Icon will change from white to blue | Pass |
+
+
+### Join Us Page
+
+| Action    | Expected Outcome   | Pass/Fail   |
+|  :-----:  | :----------------: | :---------: |
+| Press the Home Nav Button | Takes you to the Home Page | Pass |
+| Press the About Us Nav Button | Takes you to the About Us Page | Pass |
+| Press the Our Community Nav Button | Takes you to the Our Community Page | Pass |
+| Press the Join Us Nav Button | Takes you to the Join Us Page | Pass |
+| Hover over Home Nav Buttom | Text will change from white to blue and will be underlined  | Pass |
+| Hover over About Us Nav Button | Text will change from white to blue and will be underlined | Pass |
+| Hover over Our Community Nav Button | Text will change from white to blue and will be underlined | Pass |
+| Hover over Join Us Nav Button | Text will change from white to blue and will underlined | Pass |
+| Press the Join Us Button in the Join us Section | Takes you to the Discord server invite page where you will be able to join the Discord server in a new tab | Pass |
+| Press the Ask Us A Qeustion Link in the footer | Takes you to the Contact Page | Pass |
+| Press the Facebook Social Link in the footer | Takes you to facebook.com in a new tab | Pass |
+| Press the Youtube Social Link in the footer | Takes you to youtube.com in a new tab | Pass |
+| Press the Pintrest Social Link in the footer | Takes you to pintrest.co.uk in a new tab | Pass |
+| Press the Instagram Social Link in the footer | Takes you to instgram.com in a new tab | Pass |
+| Press the Twitter Social Link in the footer | Takes you to twitter.com in a new tab | Pass |
+| Hover over the Ask Us A Question link in the footer | Text will change from white to blue and will be underlined | Pass |
+| Hover over Facebook Social Link in the footer | Icon will change from white to blue | Pass |
+| Hover over Youtube Social Link in the footer | Icon will change from white to blue | Pass |
+| Hover over Pintrest Social Link in the footer | Icon will change from white to blue | Pass |
+| Hover over Instagram Social Link in the footer | Icon will change from white to blue | Pass |
+| Hover over Twitter Social Link in the footer | Icon will change from white to blue | Pass |
+
+
+### Contact Us Page
+
+| Action    | Expected Outcome   | Pass/Fail   |
+|  :-----:  | :----------------: | :---------: |
+| Press the Home Nav Button | Takes you to the Home Page | Pass |
+| Press the About Us Nav Button | Takes you to the About Us Page | Pass |
+| Press the Our Community Nav Button | Takes you to the Our Community Page | Pass |
+| Press the Join Us Nav Button | Takes you to the Join Us Page | Pass |
+| Hover over Home Nav Buttom | Text will change from white to blue and will be underlined  | Pass |
+| Hover over About Us Nav Button | Text will change from white to blue and will be underlined | Pass |
+| Hover over Our Community Nav Button | Text will change from white to blue and will be underlined | Pass |
+| Hover over Join Us Nav Button | Text will change from white to blue and will underlined | Pass |
+| Try to submit form with no information | Will not let you submit the form and will tell you what is required | Pass |
+| Try to submit form with just an Username | Will not let you submit the form and will tell you what else is required | Pass |
+| Try to submit form with just an Email Address | Will not let you submit the form and will tell you what else is required | Pass |
+| Try to submit form with just a Question |  Will not let you submit the form and will tell you what else is required | Pass |
+| Try to submit form with Username and Email Address | Will not let you submit the form and will tell you what else is required | Pass |
+| Try to submit form with Username and Question | Will not let you submit the form and will tell you what else is required | Pass |
+| Try to submit form with Email Address and Question | Will not let you submit the form and will tell you what else is required | Pass |
+| Try to submit form with all fields filled in | Takes you the a thank you page | Pass |
+| Hover over submit button | Button will change from purple to blue | Pass |
+| Press the Ask Us A Qeustion Link in the footer | Takes you to the Contact Page | Pass |
+| Press the Facebook Social Link in the footer | Takes you to facebook.com in a new tab | Pass |
+| Press the Youtube Social Link in the footer | Takes you to youtube.com in a new tab | Pass |
+| Press the Pintrest Social Link in the footer | Takes you to pintrest.co.uk in a new tab | Pass |
+| Press the Instagram Social Link in the footer | Takes you to instgram.com in a new tab | Pass |
+| Press the Twitter Social Link in the footer | Takes you to twitter.com in a new tab | Pass |
+| Hover over the Ask Us A Question link in the footer | Text will change from white to blue and will be underlined | Pass |
+| Hover over Facebook Social Link in the footer | Icon will change from white to blue | Pass |
+| Hover over Youtube Social Link in the footer | Icon will change from white to blue | Pass |
+| Hover over Pintrest Social Link in the footer | Icon will change from white to blue | Pass |
+| Hover over Instagram Social Link in the footer | Icon will change from white to blue | Pass |
+| Hover over Twitter Social Link in the footer | Icon will change from white to blue | Pass |
+
+### Thankyou Page
+
+| Action    | Expected Outcome   | Pass/Fail   |
+|  :-----:  | :----------------: | :---------: |
+| Press the Home Nav Button | Takes you to the Home Page | Pass |
+| Press the About Us Nav Button | Takes you to the About Us Page | Pass |
+| Press the Our Community Nav Button | Takes you to the Our Community Page | Pass |
+| Press the Join Us Nav Button | Takes you to the Join Us Page | Pass |
+| Hover over Home Nav Buttom | Text will change from white to blue and will be underlined  | Pass |
+| Hover over About Us Nav Button | Text will change from white to blue and will be underlined | Pass |
+| Hover over Our Community Nav Button | Text will change from white to blue and will be underlined | Pass |
+| Hover over Join Us Nav Button | Text will change from white to blue and will underlined | Pass |
+| Press Home Button in the Thank You Box | Takes you to the Home Page | Pass |
+| Hover over the Home Button in the Thank You Box | Button changes from purple to blue | Pass |
+| Press the Ask Us A Qeustion Link in the footer | Takes you to the Contact Page | Pass |
+| Press the Facebook Social Link in the footer | Takes you to facebook.com in a new tab | Pass |
+| Press the Youtube Social Link in the footer | Takes you to youtube.com in a new tab | Pass |
+| Press the Pintrest Social Link in the footer | Takes you to pintrest.co.uk in a new tab | Pass |
+| Press the Instagram Social Link in the footer | Takes you to instgram.com in a new tab | Pass |
+| Press the Twitter Social Link in the footer | Takes you to twitter.com in a new tab | Pass |
+| Hover over the Ask Us A Question link in the footer | Text will change from white to blue and will be underlined | Pass |
+| Hover over Facebook Social Link in the footer | Icon will change from white to blue | Pass |
+| Hover over Youtube Social Link in the footer | Icon will change from white to blue | Pass |
+| Hover over Pintrest Social Link in the footer | Icon will change from white to blue | Pass |
+| Hover over Instagram Social Link in the footer | Icon will change from white to blue | Pass |
+| Hover over Twitter Social Link in the footer | Icon will change from white to blue | Pass |
+
+
+
+
 ### Known Bugs
 
 ## Deployment
