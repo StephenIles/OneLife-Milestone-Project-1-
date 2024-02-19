@@ -69,8 +69,40 @@
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://validator.w3.org/#validate_by_input)
+
+### Results
+
+#### Hompage
+
+![Homepage Results](/OneLife-Milestone-Project-1-/assets/images/Homepage%20HTML.PNG "Homepage Results")
+
+#### About Us
+
+![About Us Results](/OneLife-Milestone-Project-1-/assets/images/About%20HTML.PNG "About Us Results")
+
+#### Join Us
+
+![Join Us Results](/OneLife-Milestone-Project-1-/assets/images/Join%20us%20HTML.PNG "Join Us Results")
+
+#### Our Community
+
+![Out Community Results](/OneLife-Milestone-Project-1-/assets/images/Community%20HTML.PNG "Our Community Results")
+
+#### Contact
+
+![Contact Results](/OneLife-Milestone-Project-1-/assets/images/Contact%20HTML.PNG "Conmtact Results")
+
+#### Thankyou
+
+![Thankyou Results](/OneLife-Milestone-Project-1-/assets/images/Thankyou%20HTML.PNG "Thankyou Results")
+
+
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+
+### Results
+
+![CSS Results](/OneLife-Milestone-Project-1-/assets/images/Css%20Vaildator.PNG "CSS Results")
 
 ### Testing User Stories from User Experience (UX) Section
 

@@ -115,10 +115,10 @@ body {
     padding: 3px;
 }
 
-.hero-element button,
-.join-button button,
+.hero-element .button,
+.join-button .button,
 .form-button,
-.thankyou button {
+.thankyou .button {
     width: 20%;
     font-size: 20px;
     background-color: #A367B1;
@@ -127,10 +127,10 @@ body {
     margin: 15px;
 }
 
-.hero-element button:hover,
-.join-button button:hover,
+.hero-element .button:hover,
+.join-button .button:hover,
 .form-button:hover,
-.thankyou button:hover {
+.thankyou .button:hover {
     color: #fff;
     background-color: #392467;
     border-color: #392467;
