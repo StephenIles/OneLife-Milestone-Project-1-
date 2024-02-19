@@ -69,7 +69,7 @@ body {
 /* ----------------------------------- Logo */
 
 .logo {
-    background-image: url(../images/Website\ Logo.png);
+    background-image: url(../images/Website\ Logo.jpg);
     background-size: cover;
     border-radius: 50%;
     border: 2px solid white;
@@ -238,15 +238,15 @@ body {
 }
 
 .events-img {
-    background-image: url(../images/Event\ Image.png);
+    background-image: url(../images/Event\ Image.jpg);
 }
 
 .admins-img {
-    background-image: url(../images/Admin\ Image.png);
+    background-image: url(../images/Admin\ Image.jpg);
 }
 
 .mature-img {
-    background-image: url(../images/Mature\ image.png);
+    background-image: url(../images/Mature\ image.jpg);
 }
 
 /* ----------------------------------- About Us */
@@ -282,23 +282,23 @@ body {
 }
 
 .admin1 {
-    background-image: url(../images/Muppet.png);
+    background-image: url(../images/Muppet.jpg);
 }
 
 .admin2 {
-    background-image: url(../images/Neko.png);
+    background-image: url(../images/Neko.jpg);
 }
 
 .admin3 {
-    background-image: url(../images/Allan.png);
+    background-image: url(../images/Allan.jpg);
 }
 
 .who-are-we-img {
-    background-image: url(../images/Who\ are\ we.png);
+    background-image: url(../images/Who\ are\ we.jpg);
 }
 
 .our-goal-img {
-    background-image: url(../images/Our\ goal.png);
+    background-image: url(../images/Our\ Goal.jpg);
 }
 
 
@@ -383,19 +383,19 @@ body {
 }
 
 .user1 {
-    background-image: url(../images/user1.png);
+    background-image: url(../images/user1.jpg);
 }
 
 .user2 {
-    background-image: url(../images/user2.png);
+    background-image: url(../images/user2.jpg);
 }
 
 .user3 {
-    background-image: url(../images/user3.png);
+    background-image: url(../images/user3.jpg);
 }
 
 .user4 {
-    background-image: url(../images/user4.png);
+    background-image: url(../images/user4.jpg);
 }
 
 .talent-showcase {
