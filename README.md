@@ -51,7 +51,7 @@
 ### Frameworks, Libraries & Programs Used
 
 1. [Bootstrap 5.0.2:](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
-    - Bootstrap was used to assist with the responsiveness and styling of the website.
+    - Bootstrap was used to assist with[text] the responsiveness and styling of the website.
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
@@ -107,6 +107,21 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
+
+      1. "As a First Time Visitor, I want to be able to get a feel for the commmunity before joining."
+
+          I feel after looking through the community page and seeing what upcoming events the community has, being able to see some of the community talent and then reading the community reviews on the join us page gives me a good sense of what the community is like.
+
+      2. "As a First Time Visitor, I want to be able to navigate the website easier so I can find out what the community is about."
+
+          Landing on the Homepage, I could clearly see the navigation menu at the top on of the screen, being able to navigate to the different pages. Scrolling through the homepage, I notice the call to action in the hero image with a button that takes you to the Join Us page.
+
+          I also notice that through the homepage there are multiple links for the contact us page. 
+        
+          Finally being able to find all the social media links in the footer at the bottom on the page let me explore more content. 
+
+
+
 
 -   #### Returning Visitor Goals
 
@@ -306,30 +321,30 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 | Hover over Twitter Social Link in the footer | Icon will change from white to blue | Pass |
 
 
-### Lighthouse Scores
+## Lighthouse Scores
 
-## Homepage 
+### Homepage 
 
 ![Homepage Lighthouse Results](/OneLife-Milestone-Project-1-/assets/images/Homepage.PNG "Homepage Lighthouse Results")
 
 
-## About Us 
+### About Us 
 
 ![About Us Lighthouse Results](/OneLife-Milestone-Project-1-/assets/images/About%20Us.PNG "About Us Lighthouse Results")
 
-## Our Community
+### Our Community
 
 ![Our Community Lighthouse Results](/OneLife-Milestone-Project-1-/assets/images/Community.PNG "Our Community Lighthouse Results")
 
-## Join Us
+### Join Us
 
 ![Join Us Lighthouse Results](/OneLife-Milestone-Project-1-/assets/images/Join%20Us.PNG "Join Us Lighthouse Results")
 
-## Contact
+### Contact
 
 ![Contact Lighthouse Results](/OneLife-Milestone-Project-1-/assets/images/Contact.PNG "Contact Lighthouse Results")
 
-## Thank You
+### Thank You
 
 ![Thank You Lighthouse Results](/OneLife-Milestone-Project-1-/assets/images/Thankyou.PNG "Thank You Lighthouse Results")
 

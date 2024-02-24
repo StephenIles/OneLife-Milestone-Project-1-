@@ -571,11 +571,11 @@ form textarea {
         width: 80%;
     }
 
-    .hero-element button {
+    .hero-element .button {
         width: 30%;
     }
     
-    .join-button button {
+    .join-button .button {
         width: 50%;
     }
 
@@ -618,6 +618,19 @@ form textarea {
     .reviews,
     .join-button {
         width: 75%;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    
+    .hero-element .button {
+        width: 50%;
+    }
+
+    .socials li {
+        padding: 0 5px;
+        margin: 0 5px;
     }
 
 }
