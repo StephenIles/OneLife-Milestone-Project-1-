@@ -120,12 +120,47 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         
           Finally being able to find all the social media links in the footer at the bottom on the page let me explore more content. 
 
+      3. "As a First Time Visitor, I want to look for testimonials about the community to be able to know if the community is a place that I would like join."
 
+          Looking through the website I can see that there is nice community feeling which has me feeling like I would like to join the community. Heading to the 'Join Us' pageI found a couple of useful reviews from community members.
+
+      4. "As a First Time Visitor, I want to see if the community has the same interested as myself."
+
+          Looking through the community page I can see there are weekly events going on which I have some interest in. Also being able to explore the social media account gives me a deeping insight to what the community offers.
+
+      5. "As a First Time Visitor, I want to be able to ask questions that I am unable to find the answers to on the website."
+
+          I was able to find a link to a contact form throughout the website to be able to ask questions that I was unable to find the answer for on the webbsite itself. 
 
 
 -   #### Returning Visitor Goals
 
+      1. "As a Returning Visitor, I want to see if there are any new hobbies or interesed that would match my own hobbies."
+
+          I wanted to come back and see what community events were going on. Going onto the community page the calander was helpful to see what events are going on and make it easier for me to plan to attend future events. 
+
+      2. "As a Returning Visitor, I want to be able to share some drawings that I have made to get feedback."
+
+          I can see that there is a 'Community Talent' section for people to showcase their artwork. I sent a message using the online question form and someone got back to me saying to poast them in the Discord server and they will be put on the website.
+
+      3. "As a Returning Visitor, I want to know more about the community and who runs it."
+
+          Looking on the about us page it was nice topp see some infomation about why the community was starts and some information about the admin team. 
+
+      
 -   #### Frequent User Goals
+
+      1. "As a Frequent User, I want to be able to keep up to date with community events that I would be interested in joining"
+
+          Being able to find an easy up to date calander of events that will be happening makes it easy for to plan to attend these different events.
+
+      2. "As a Frequent User, I want to check to see if there are any new community posts that I can give feedback on."
+
+          Currently there is not much community interaction on the website, but the ability to see the commuinity talent update and being able to see who made the art/photo etc, I am then able to message that person in the server and let them know my feedback. 
+
+      3. "As a Frequent User, I want to be able to share feedback about the community so that first time vistors are able to have an idea of what the community is like."
+
+          I have been enjoying my time in the community and wanted to leave a community review. I used the contact form to ask the question and was told that I could either submit another contact form or leave a view on the Discord server in the correct channel.
 
 ### Further Testing
 
